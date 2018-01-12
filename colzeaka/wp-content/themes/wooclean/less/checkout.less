@@ -1,0 +1,365 @@
+/*======================================
+=            Style Checkout            =
+======================================*/
+.woocommerce-checkout{
+	color: #2c3e50;
+	.login{
+		padding-left: 10px;
+	}
+	.checkout_coupon{
+		width: 100%;
+		display: inline-block;
+		border: 1px solid #d3ced2;
+		padding: 20px;
+		margin-bottom: 2em;
+		text-align: left;
+		border-radius: 5px;
+		p{
+			padding: 3px;
+			margin: 0;
+			&:after{
+				clear: both;
+			}
+		}
+	}
+	h3{
+		margin-bottom: 30px;
+		font-size: 20px;
+		color: #000;
+		text-transform: uppercase;
+	}
+	.col2-set {
+		width: 66%;
+		float: left;
+	}
+	#order_review{
+		width: 34%;
+		float: right;
+	    border: 3px solid #4d4d4d;
+	    padding: 45px 35px;
+	}
+	.woocommerce-billing-fields{
+		padding-right: 20px;
+	}
+	.form-row{
+		width: 100%;
+		margin-bottom: 40px;
+			&.form-row-first{
+				width: 48%;
+				float: left;
+			}
+			&.form-row-last{
+				width: 48%;
+				float: right;
+			}
+		.required{
+			border: none;
+			color: #cecece;
+		}
+		.country_to_state{
+			a{
+				padding: 10px;
+			}
+		}
+		.select2-choice{
+			padding: 10px;
+		}
+	}
+	#order_review_heading{
+		width: 100%;
+		display: inline-block;
+		font-size: 20px;
+		color: #000;
+	}
+	.woocommerce-checkout-payment{
+		ul{
+			text-align: left;
+			padding: 1em;
+			border-bottom: 1px solid #d3ced2;
+			margin: 0;
+			list-style: none;
+			li{
+				line-height: 25px;
+			    text-align: left;
+			    margin: 0;
+			    font-weight: 100;
+			    font-size: 14px;
+			    color: #b2b2b2;
+			    letter-spacing: 0.5px;
+			    input{
+					width: auto;
+					height: auto;
+					margin-right: 5px;
+			    }
+			    label{
+					width: auto;
+			    }
+			}
+		}
+		.form-row{
+			margin-top: 30px;
+			margin-bottom: 0;
+			.button{
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+	.terms{
+		.checkbox{
+			width: auto;
+		    font-size: 14px;
+		    display: inline-block;
+		    margin-top: 0;
+		}
+		input{
+			width: auto;
+			height: auto;
+			margin-left: 10px;
+		}
+	}
+	.checkbox{
+		width: auto;
+   		display: inline-block;
+	}
+	.input-checkbox{
+		width: auto;
+	    display: inline-block;
+	    height: auto;
+	    float: left;
+	    margin: 12px 10px 0 0;
+	}
+	.checkbox input[type=checkbox]{
+		margin-left: 0;
+		margin-top: 3px;
+		width: auto !important;
+	}
+}
+.woocommerce-shipping-fields{
+	display: inline-block;
+	width: 100%;
+	.checkbox{
+		span{
+			margin-left: 25px;
+			text-transform: none;
+			display: inline-block;
+		}
+	}
+}
+.woocommerce-checkout-review-order{
+	table{
+		margin: 0 -1px 24px 0;
+		text-align: left;
+		width: 100%;
+		border-collapse: separate;
+		border-radius: 5px;
+		.product-total{
+			text-align: right;
+		}
+		.product-name, .product-total{
+			padding: 18px 12px;
+			color: #252525;
+			font-size: 15px;
+			border-bottom: none !important;
+			.amount{
+				color: #b2b2b2;
+			}
+		}
+		.cart_item{
+			.product-name, .product-total{
+				border-bottom: 1px solid #e6e6e6;
+				padding: 18px 12px;
+				vertical-align: middle;
+			}
+			.product-name{
+				text-align: left;
+			}
+			.product-total{
+				text-align: right;
+			}
+		}
+		.cart-subtotal, .order-total{
+			th, td{
+				border-top: 1px solid rgba(0,0,0,.1);
+				padding: 9px 12px;
+				vertical-align: middle;
+			}
+			td .includes_tax {
+				display: inline-block;
+				padding-top: 10px;
+				color: #b2b2b2;
+				font-size: 15px;
+			}
+		}
+		thead{
+			text-transform: uppercase;
+		}
+	}
+	.cart-subtotal,
+	.order-total{
+		td{
+			text-align: right;
+		}
+	}
+}
+#shipping_method{
+	margin: 0;
+}
+.create-account{
+	.input-checkbox{
+		width: auto !important;
+	    float: left;
+	    height: auto !important;
+	    margin: 15px 10px 0 0;
+	}
+	p{
+	    color: #b2b2b2;
+	    font-size: 16px;
+	    font-weight: 100;
+    	margin-bottom: 20px;
+	}
+	.woocommerce-form__label span{
+		margin-left: 25px;
+	}
+}
+.clear{
+	clear: both;
+}
+label{
+	font-size: 16px;
+	width: 100%;
+	color: #b2b2b2;
+	margin-bottom: 10px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+input, textarea{
+	border: 1px solid #e6e6e6;
+	color: #a1b1bc;
+	font-size: 14px;
+	padding-left: 10px;
+	width: 100%;
+	box-shadow: none;
+	height: 40px;
+	outline: 0;
+	background-color: #F7F8F9;
+	letter-spacing: 1px;
+   	font-weight: 100;
+	&:focus{
+		background-color: #fff;
+		border: 1px solid #000;
+	}
+}
+textarea {
+	padding-top: 10px;
+	height: 80px;
+}
+.woocommerce-error{
+	padding: 46px 30px 46px 46px;
+	margin: 0 0 2em !important;
+	position: relative;
+	background-color: #f7f6f7;
+	color: #515151;
+	border-top: 3px solid #b81c23;
+	list-style: none;
+	width: auto;
+	word-wrap: break-word;
+	li{
+		margin-bottom: 5px;
+		color: #999;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		strong{
+		    color: #1a1a1a;
+		}
+	}
+	&:before{
+		content: "\f06a";
+		color: #b81c23;
+		font-family: FontAwesome;
+		display: inline-block;
+		position: absolute;
+		left: 1.5em;
+	}
+	&:after{
+		clear: both;
+	}
+}
+.woocommerce-message{
+	padding: 46px 30px 46px 46px;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #515151;
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: auto;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    &:before{
+		content: "\f05a";
+		color: #8fae1b;
+		font-family: FontAwesome;
+		display: inline-block;
+		position: absolute;
+		font-size: 20px;
+		left: 20px;
+		line-height: 16px;
+    }
+    a{
+    	position: absolute;
+    	right: 20px;
+    	color: #fff;
+		display: inline-block;
+		background-color: #000;
+		padding: 10px 15px;
+		font-size: 16px;
+		top: 35px;
+		.transition();
+		&:hover{
+			color: #fff;
+			opacity: 0.6;
+			text-decoration: none;
+		}
+    }
+    &:after{
+    	clear: both;
+    }
+}
+.woocommerce-info {
+	padding: 46px 30px;
+	margin: 0 0 2em;
+	background-color: #f7f6f7;
+	color: #999;
+	font-size: 14px;
+	text-transform: uppercase;
+	list-style: none;
+	width: auto;
+	word-wrap: break-word;
+	letter-spacing: 1px;
+	&:after{
+		clear: both;
+	}
+	a{
+		color: #1a1a1a;
+		text-transform: uppercase;
+		text-decoration: underline;
+		margin-left: 5px;
+	}
+}
+input.button{
+	font-size: 18px;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	width: auto;
+	.transition-small();
+	&:hover{
+		background: #666;
+		border-color: #666;
+	}
+}
+/*=====  End of Style Checkout  ======*/

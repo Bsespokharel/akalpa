@@ -1,0 +1,136 @@
+/*====================================
+=           Style Footer            =
+====================================*/
+.result_hover{
+	background-color: #f10;
+}
+.footer{
+	background-color: #262626;
+	.footer-main{
+		padding: 32px 0px;
+		.footer-widget {
+			.textwidget{
+				img{
+					float: left;
+					margin-right: 15px;
+				}
+				p{
+					float: left;
+					font-size: 14px;
+					color: #808080;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	.widget-title{
+		color: #cecece;
+		border: none;
+		text-align: center;
+		padding-bottom: 15px;
+	}
+}
+.default-copyright{
+	color: #666;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 0;
+	a{
+		color: #b2b2b2;
+		text-decoration: underline;
+		.transition();
+		&:hover{
+			color: #fff;
+		}
+	}
+}
+.footer-copyright{
+	padding-bottom: 31px;
+	>.container{
+		&:before{
+			border-top: 1px solid #383838;
+			display: inline-block;
+			width: 100%;
+			padding-top: 31px;
+		}
+	}
+	.social-widget{
+		float: right;
+		ul{
+			li{
+				a{
+					&:hover{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.copyright-widget.widget_text{
+		p{
+			color: #666;
+			font-size: 18px;
+			font-weight: 400;
+			a{
+				color: #b2b2b2;
+				text-decoration: underline;
+				.transition();
+				&:hover{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+.footer-widget {
+	margin: 0;
+	.textwidget{
+		display: inline-block;
+		margin-top: 18px;
+	}
+	&.widget_nav_menu{
+		ul{
+			margin-top: 3px;
+			float: right;
+			li{
+				display: inline-block;
+				padding-right: 35px;
+				border-bottom: none;
+				&:last-child{
+					padding-right: 0;
+				}
+				a{
+					color: @globalcolor;
+					font-size: 16px;
+					font-weight: 300;
+					.transition();
+					text-transform: uppercase;
+					&:hover{
+						text-decoration: underline;
+						color: #fff;
+					}
+				}
+				.sub-menu{
+					display: none;
+				}
+			}
+		}
+	}
+}
+.defoult-logo{
+	display: inline-block;
+	padding-top: 18px;
+	a{
+		display: inline-block;
+	    float: left;
+	    margin-right: 10px;
+	}
+	p{
+		display: inline-block;
+	    float: left;
+	    margin-bottom: 0;
+	}
+}
+/*=====  End of Style Footer  ======*/
